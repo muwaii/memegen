@@ -3,7 +3,7 @@ import './Header.css';
 function Header() {
     return (
         <div className="header">
-            <div>Header</div>
+            <div className='header-msg'>Get Memes</div>
         </div>
     )
 }

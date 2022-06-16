@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 .header {
-    height: 40px;
-    background-color: orange;
+    height: 60px;
+    background-color: rgba(255, 166, 0, 0.941);
+    color: white;
+    font-size: 40px;
+}
+
+.header-msg {
+    padding-left: 18px;
+    font-family: 'Anton', sans-serif;
 }

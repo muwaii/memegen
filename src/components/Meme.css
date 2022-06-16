@@ -1,1 +1,88 @@
- 
+.meme {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    position: relative; 
+    padding-top: 50px;
+}
+
+/* meme section */
+.meme-container {
+    border: 3px groove rgb(255, 167, 4);
+    width: 500px;
+    height: 400px;
+    position: relative;    /* make meme and input inner meme-container */
+    display: flex; 
+    justify-content: center;    /*center my-node horizontal (major axis) */
+    align-items: center;    /* center my-node vertical (minor axis) */
+} 
+
+#my-node {
+    background-color: white;
+    width: 450px;
+    height: 350px;
+}
+
+.meme-msg {
+    /* border: 3px solid rgb(238, 1, 222); */
+    position: absolute;    /* make mgs is on img */ 
+    width: 450px;
+    height: 350px;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.top-msg, .top-mid-msg, .mid-bot-msg, .bot-msg {
+    margin: 15px 0;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 2px black;
+    color: white;
+}
+
+.meme-img {
+    width: 450px;
+    height: 350px;
+    object-fit: contain;    /* make image fit with frame */
+}
+
+/* input section */
+.input-container {
+    width: 250px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+.input-1, .input-2, .input-3, .input-4 {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.input-1 {
+    margin-top: 0;
+}
+
+.getmeme-btn {
+    margin-top: 10px;
+    width: 200px;
+}
+
+.download-btn {
+    margin-top: 197px;
+    width: 200px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    color: white
+}
+
+
